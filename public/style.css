@@ -1,0 +1,35 @@
+body{
+    display: flexbox;
+    background-color: rgb(215, 215, 214);
+    
+
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+button{
+    background-color: rgb(35, 148, 95);
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    width: auto;
+}
+button:hover{
+    color: black;
+    background-color: greenyellow;
+    
+}
+
+.carrinho{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
